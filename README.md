@@ -30,7 +30,7 @@ When prompted to move files around, answer 'y'
 
 Follow the prompts during the install to finsih up.
 
-### Connecting with Certificate Enrollment in ATAK
+## Connecting with Certificate Enrollment in ATAK
 
 
 Copy truststore-intermediate-CA.p12 to your device.
