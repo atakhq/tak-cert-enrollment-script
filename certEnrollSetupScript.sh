@@ -23,7 +23,7 @@ echo "**************************************************************************
 echo "Setup Complete: "
 echo "Please exit the docker container and then run the post-install script." 
 echo "exit"
-echo "cd /tmp/tak-cert-enrollment-script/ && sudo ./certEnrollPostInstallScript.sh"
+echo "cd /tmp/tak-cert-enrollment-script/ && chmod +x * && sudo ./certEnrollPostInstallScript.sh"
 echo ""
 echo "***************************************************************************"
 echo "***************************************************************************"
