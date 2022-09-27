@@ -16,7 +16,7 @@
 
 2. Clone this project into the docker container
 
-`cd tmp && git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
+`cd /tmp/ && git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
 
 
 3. Make the script executable and run it (we are inside the docker container)
