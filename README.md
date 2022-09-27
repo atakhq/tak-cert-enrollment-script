@@ -5,6 +5,7 @@
 1. Login as TAK Superuser and clone this repo to your machine
 
 `su - tak`
+
 `cd tmp && git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
 
 
