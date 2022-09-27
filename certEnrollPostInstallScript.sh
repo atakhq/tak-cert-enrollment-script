@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This script will copy the intermeidate CA truststore that you will need to distribute to your users from your Docker Container to your local server."
+echo "This script will copy the intermediate CA truststore that you will need to distribute to your users from your Docker Container to your local server."
 read -p "Press any key to being..."
 
 #Make our changes live
