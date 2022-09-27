@@ -37,8 +37,7 @@ Copy truststore-intermediate-CA.p12 to your device.
 
 
 Settings > Network Preferences> Server Connections > 3 vertical dots button in top right > Add 
-`
-Name: Whatever you want your server nickname to be in ATAK
+`Name: Whatever you want your server nickname to be in ATAK
 Address: IP Address to your TAK server
 Use Authentication: Checked
 Username: Enter username
@@ -48,8 +47,7 @@ Advanced Options: Checked
 
 Use Default SSL/TLS Certificates: UNchecked
 Import Trust Store: Click and import truststore-intermediate-CA.p12 (password 'atakatak')
-Import Client Certificate: Leave Blank
-`
+Import Client Certificate: Leave Blank`
 
 
 Click OK and you should see a message that you are registering with the server, if successful you should now be connected and certificates automagically loaded in your server profile in ATAK.
