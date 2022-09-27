@@ -4,6 +4,7 @@ echo "This script will copy the intermeidate CA truststore that you will need to
 read -p "Press any key to being..."
 
 #Make our changes live
+cd ~/tak-server/
 docker-compose down
 service docker restart
 docker-compose up -d
