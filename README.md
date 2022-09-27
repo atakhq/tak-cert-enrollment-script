@@ -30,11 +30,19 @@ When prompted to move files around, answer 'y'
 
 Follow the prompts during the install to finsih up.
 
+
+
+## User Creation
+
+Generate a new user in TAK Admin interface so they have a user/pass: https://111.222.333.444:8446/user-management/index.html#!/
+
+Password must have at least 15 characters and must include 1 lowercase, 1 uppercase, 1 number and 1 special character.
+
+
+
 ## Connecting with Certificate Enrollment in ATAK
 
-
 Copy truststore-intermediate-CA.p12 to your device.
-
 
 Settings > Network Preferences> Server Connections > 3 vertical dots button in top right > Add 
 
@@ -56,7 +64,7 @@ Settings > Network Preferences> Server Connections > 3 vertical dots button in t
 
 **Import Trust Store:** Click and import truststore-intermediate-CA.p12 (password 'atakatak')
 
-**Import Client Certificate: **Leave Blank
+**Import Client Certificate:** Leave Blank
 
 
 Click OK and you should see a message that you are registering with the server, if successful you should now be connected and certificates automagically loaded in your server profile in ATAK.
