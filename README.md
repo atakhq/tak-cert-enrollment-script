@@ -1,5 +1,6 @@
-# tak-cert-enrollment
+# TAK Server Certificate Enrollment
 ## This script package will assist in setup of Certificate Enrollment on your TAK Server Docker Instance in just a few minutes.
+### More info Here: https://atakhq.com/en/tak-server/cert-enrollment
 
 1. Open a shell for your Docker container running TAK Server
 
