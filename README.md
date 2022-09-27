@@ -3,8 +3,12 @@ This script package will assit in setup of Certificate Enrollment on your TAK Se
 
 1. Open a shell for your Docker container running TAK Server
 
+`docker exec -it tak-server-tak-1 /bin/bash`
+
+2. Clone this project
+
 `git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
 
-2. Make the script executable and run it
+3. Make the script executable and run it
 
 `cd tak-cert-enrollment-script/ && sudo chmod +x * && ./certEnrollSetupScript.sh`
