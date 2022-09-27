@@ -3,6 +3,9 @@
 echo "YOU MUST RUN THIS FROM INSIDE YOUR TAK DOCKER CONTAINER!!!!"
 read -p "Press any key to being setup..."
 
+#install deps
+apt-get install ed
+
 #Make the int cert and edit the tak config to use it
 cd /opt/tak/certs/
 ./makeCert.sh ca intermediate-CA
@@ -19,7 +22,7 @@ q
 sed -i -e '58,69d' CoreConfig.xml
 
 #Add new CA Config
-ed CoreConfig.xml
+ed /opt/tak/CoreConfig.xml
 58i
     <certificateSigning CA="TAKServer">
      <certificateConfig>
