@@ -3,6 +3,11 @@
 echo "This script will copy the intermeidate CA truststore that you will need to distribute to your users from your Docker Container to your local server."
 read -p "Press any key to being..."
 
+#Make our changes live
+docker-compose down
+service docker restart
+docker-compose up -d
+
 CONTAINER_NAME=$(sudo docker container ls | awk 'NR==2{print substr($2,1,length($2))}')
 
 if [ $CONTAINER_NAME != "tak-server-tak" ]; then 
