@@ -19,5 +19,7 @@ sed -i '58 a\   <certificateSigning CA="TAKServer">\n     <certificateConfig>\n 
 
 echo ""
 echo "Setup Complete: "
-echo "Download the new intermediate truststore cert that was just created," 
-echo "and create your new users from the TAK Server Web UI for them to authenticate."
+echo "Please exit the docker container and then run the post-install script." 
+echo "exit"
+echo "cd /tmp/tak-cert-enrollment-script/ && sudo ./certEnrollPostInstallScript.sh"
+
