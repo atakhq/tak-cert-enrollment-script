@@ -39,11 +39,17 @@ Copy truststore-intermediate-CA.p12 to your device.
 Settings > Network Preferences> Server Connections > 3 vertical dots button in top right > Add 
 
 `Name: Whatever you want your server nickname to be in ATAK
+
 Address: IP Address to your TAK server
+
 Use Authentication: Checked
+
 Username: Enter username
+
 Password: Enter password
+
 Enroll for Client Certificate: Checked
+
 Advanced Options: Checked`
 
 Use Default SSL/TLS Certificates: UNchecked
