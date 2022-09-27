@@ -6,7 +6,7 @@
 
 `su - tak`
 
-`cd /tmp/ && git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
+`cd /tmp/ && git clone https://github.com/atakhq/tak-cert-enrollment-script.git && sudo chmod -R +x * /tmp/tak-cert-enrollment-script/`
 
 
 2. Open a shell for your Docker container running TAK Server
