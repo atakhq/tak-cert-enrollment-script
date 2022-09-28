@@ -70,3 +70,5 @@ Settings > Network Preferences> Server Connections > 3 vertical dots button in t
 Click OK and you should see a message that you are registering with the server, if successful you should now be connected and certificates automagically loaded in your server profile in ATAK.
 
 
+## Connecting with Certificate Enrollment in ITAK
+ITAK does not support cert enrollment as of right now, must use datapackage zip file. 
