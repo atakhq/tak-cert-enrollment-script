@@ -28,7 +28,7 @@ When prompted to move files around, answer 'y'
 
 `Do you want me to move files around so that future server and client certificates are signed by this new CA? [y/n]`
 
-Follow the prompts during the install to finsih up.
+Follow the prompts during the install to finish up.
 
 
 
