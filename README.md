@@ -14,15 +14,9 @@
 `docker exec -it tak-server-tak-1 /bin/bash`
 
 
-2. Clone this project into the docker container
+2. Clone this project into the docker container, make executable, run it
 
-`cd /tmp/ && git clone https://github.com/atakhq/tak-cert-enrollment-script.git`
-
-
-3. Make the script executable and run it (we are inside the docker container)
-
-`cd /tmp/tak-cert-enrollment-script/ && chmod +x * && ./certEnrollSetupScript.sh`
-
+`cd /tmp/ && git clone https://github.com/atakhq/tak-cert-enrollment-script.git && cd /tmp/tak-cert-enrollment-script/ && chmod +x * && ./certEnrollSetupScript.sh`
 
 When prompted to move files around, answer 'y'
 
