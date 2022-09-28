@@ -36,7 +36,7 @@ Once you see `2022-09-27-20:44:07.184 [main] t.s.plugins.service.PluginService -
 
 Here is an example of the log file leading up to the point where the server becomes reachable:
 ```
-.   ____          _            __ _ _
+  .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
@@ -87,7 +87,7 @@ Here is an example of the log file leading up to the point where the server beco
 2022-09-27-20:44:06.734 [main] t.s.p.manager.loader.PluginLoader - starting PluginLoader
 2022-09-27-20:44:07.122 [main] t.s.p.messaging.PluginMessenger - starting PluginMessenger
 2022-09-27-20:44:07.184 [main] t.s.plugins.service.PluginService - Started PluginService in 198.462 seconds (JVM running for 253.01)
-.
+
 ```
 
 
