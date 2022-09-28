@@ -33,9 +33,11 @@ Follow the prompts during the install to finish up.
 #### Post Setup Warning: 
 **The server takes a long time to come back up and be reachable in your browser, especially if you are on a machine with little ram (RPI/BPI). Be patient and tail the server logs as suggested at the end of the install script. If it seems to hang at one part for an excessive amount of time, try to hit your server login page on port 8446 and I find this "wakes up" tak and it resumes the startup process.**
 
-**Once you see 
+**Once you see** 
+
 `2022-09-27-20:44:07.184 [main] t.s.plugins.service.PluginService - Started PluginService in 198.462 seconds (JVM running for 253.01)`
-the service should be up and reachable.**
+
+**the service should be up and reachable.**
 
 
 **Here is an example of the log file leading up to the point where the server becomes reachable:**
