@@ -2,7 +2,7 @@
 ## This script package will assist in setup of Certificate Enrollment on your TAK Server Docker Instance in just a few minutes.
 ### More info Here: https://atakhq.com/en/tak-server/cert-enrollment
 
-1. Login as TAK Superuser and clone this repo to your machine
+1. Login as TAK Superuser and clone this repo to your machine (you will be using this later when prompted by the first install script)
 
 `su - tak`
 
